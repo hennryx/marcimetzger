@@ -22,27 +22,27 @@ const App = () => {
             <div id='home' className="relative h-dvh w-full min-w-dvw">
                 <Home />
             </div>
-            <section className='min-w-dvw min-h-full mt-16'>
+            <section className='min-w-dvw min-h-full mt-8 md:mt-16'>
                 <Profile />
             </section>
 
-            <section className='min-w-dvw min-h-full mt-16'>
+            <section className='min-w-dvw min-h-full mt-8 md:mt-16'>
                 <Service />
             </section>
 
-            <section className='min-w-dvw min-h-full mt-16'>
+            <section className='min-w-dvw min-h-full mt-8 md:mt-16'>
                 <Achivements />
             </section>
 
-            <section className='min-w-dvw min-h-full mt-16'>
+            <section className='min-w-dvw min-h-full mt-8 md:mt-16'>
                 <Gallery />
             </section>
 
-            <section className='min-w-dvw min-h-full mt-16'>
+            <section className='min-w-dvw min-h-full mt-8 md:mt-16'>
                 <Contacts />
             </section>
 
-            <section className='min-w-dvw min-h-full mt-16'>
+            <section className='min-w-dvw min-h-full mt-8 md:mt-16'>
                 <Map />
             </section>
             <Footer />

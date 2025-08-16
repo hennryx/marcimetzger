@@ -78,17 +78,17 @@ const Gallery = () => {
                     className="fixed inset-0 bg-black/50 flex justify-center items-center z-50"
                     onClick={() => setSelectedImage(null)}
                 >
-                    <div className="relative">
+                    <div className="relative p-4">
                         <img
                             src={selectedImage}
                             alt="Selected"
                             className="max-w-full max-h-[80vh] rounded-lg shadow-lg"
                         />
                         <button
-                            className="absolute top-2 right-2 bg-white rounded-full p-2 shadow"
+                            className="absolute top-6 right-6 bg-white rounded-full p-2 shadow"
                             onClick={() => setSelectedImage(null)}
                         >
-                            <X />
+                            <X size={18}/>
                         </button>
                     </div>
                 </div>
