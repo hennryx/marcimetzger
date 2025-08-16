@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Phone } from 'lucide-react';
 import SearchForm from '../components/searchForm';
-import BG_IMAGE from '../assets/bg-Image.png'
 
 const Home = () => {
     const [searchData, setSearchData] = useState({
