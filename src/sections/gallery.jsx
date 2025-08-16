@@ -55,11 +55,11 @@ const Gallery = () => {
                 </div>
 
                 <div className="md:hidden">
-                    <div className="grid grid-cols-3 gap-4">
+                    <div className="grid grid-cols-3 gap-2">
                         {images.map((image, index) => (
                             <div
                                 key={index}
-                                className={`overflow-hidden rounded-lg smooth-scale-700`}
+                                className={`overflow-hidden rounded-lg smooth-scale-700 min-h-[200px]`}
                                 onClick={() => setSelectedImage(image.src)}
                             >
                                 <img

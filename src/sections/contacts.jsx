@@ -10,7 +10,7 @@ import { ReactComponent as WhatsApp } from '../assets/socials/WhatsApp.svg';
 const Contacts = () => {
     return (
         <div className='bg-white mx-auto'>
-            <div className="mx-auto max-w-7xl py-4 pl-4 pr-8 border rounded-md">
+            <div className="mx-4 md:mx-auto max-w-7xl py-4 pl-4 pr-8 border rounded-md">
                 <div className="flex flex-col md:flex-row gap-2 md:gap-8">
                     <div className="flex flex-col gap-4 w-full md:w-1/2 p-4">
                         <h2 className="text-center text-2xl sm:text-4xl font-bold md:text-left">

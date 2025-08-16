@@ -10,7 +10,7 @@ const Profile = () => {
                     <div className='flex-shrink-0'>
                         <div className='w-64 h-80 lg:w-80 lg:h-96 relative'>
                             <div className='w-full h-full bg-gradient-to-br from-slate-100 to-slate-200 rounded-lg overflow-hidden shadow-xl'>
-                                <img src={PROFILE} alt="" />
+                                <img src={PROFILE} alt="Profile" className='h-full w-auto object-cover' />
                             </div>
                         </div>
                     </div>
@@ -27,8 +27,8 @@ const Profile = () => {
                             
                             <div className='pt-4'>
                                 <button className="bg-black text-white px-8 py-4 rounded-full flex items-center space-x-3 hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 mx-auto lg:mx-0">
-                                    <Phone size={20} />
-                                    <span className="text-base font-medium">Call now</span>
+                                    <Phone size={20} color='white'/>
+                                    <span className="text-base font-medium text-white">Call now</span>
                                 </button>
                             </div>
                         </div>

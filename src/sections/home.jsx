@@ -28,8 +28,8 @@ const Home = () => {
                                 </h1>
 
                                 <button className="bg-black text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full flex items-center space-x-2 hover:bg-gray-800 transition-colors group mx-auto lg:mx-0">
-                                    <Phone size={18} />
-                                    <span className="text-sm sm:text-base">Call now</span>
+                                    <Phone size={18} color='white'/>
+                                    <span className="text-sm sm:text-base text-white">Call now</span>
                                 </button>
                             </div>
                         </div>
