@@ -17,27 +17,27 @@ const Footer = () => {
 
                     <div className="flex gap-2 items-center justify-center">
                         <div className="p-1 bg-black/10 rounded-md">
-                            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.facebook.com/MarciHomes/" target="_blank" rel="noopener noreferrer">
                                 <FacebookIcon className="w-8 h-8 fill-black text-black" />
                             </a>
                         </div>
                         <div className="p-1 bg-black/10 rounded-md">
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank" rel="noopener noreferrer">
                                 <LinkedinIcon className="w-8 h-8 fill-black text-black" />
                             </a>
                         </div>
                         <div className="p-1 bg-black/10 rounded-md">
-                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/marciandlauren_nvrealtors/" target="_blank" rel="noopener noreferrer">
                                 <InstagramIcon className="w-8 h-8 fill-black text-black" />
                             </a>
                         </div>
                         <div className="p-1 bg-black/10 rounded-md">
-                            <a href="https://yelp.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.yelp.com/biz/xr3yQN_m2SgO0R_7S6p62w" target="_blank" rel="noopener noreferrer">
                                 <YelpIcon className="w-8 h-8 fill-black text-black" />
                             </a>
                         </div>
                         <div className="p-1 bg-black/10 rounded-md">
-                            <a href="https://yelp.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://wa.me/14259412560" target="_blank" rel="noopener noreferrer">
                                 <WhatsApp className="w-8 h-8 fill-black text-black" />
                             </a>
                         </div>
