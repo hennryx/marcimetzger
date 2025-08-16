@@ -46,10 +46,10 @@ const Achivements = () => {
                 </div>
 
                 <div className='flex flex-col md:flex-row items-center justify-around gap-8 md:gap-2 h-fit mt-16'>
-                    <img src={logo1} alt="" />
-                    <img src={logo2} alt="" />
-                    <img src={logo3} alt="" />
-                    <img src={logo4} alt="" />
+                    <img src={logo1} alt="logo1" />
+                    <img src={logo2} alt="logo1" />
+                    <img src={logo3} alt="logo1" />
+                    <img src={logo4} alt="logo1" />
                 </div>
             </div>
         </div>

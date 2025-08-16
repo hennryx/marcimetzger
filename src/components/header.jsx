@@ -8,7 +8,7 @@ const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
-        <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm flex justify-between items-center p-2 mx-auto">
+        <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md shadow-sm flex justify-between items-center py-2 px-16 mx-auto">
             <div className="flex items-center">
                 <a href="#home">
                     <img src={LOGO} alt="logo" className='h-14 w-auto bg-cover' />
